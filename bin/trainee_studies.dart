@@ -5,11 +5,13 @@ void main(List<String> arguments){
   String nome = 'Gustavo Jorge Novaes Silva';
   String apelido = 'Guga';
 
-  String out = 'Eu sou o $apelido \n'
-      'mas meu nome completo é: $nome,\n'
-      'eu me considero geek? $geek \n'
-      'Eu tenho $altura metros de altura e \n'
-      '$idade anos de idade';
+  List<dynamic> dados = [idade, altura, geek, nome, apelido];
+
+  String out = 'Eu sou o ${dados[4]} \n'
+      'mas meu nome completo é: ${dados[3]},\n'
+      'eu me considero geek? ${dados[2]} \n'
+      'Eu tenho ${dados[1]} metros de altura e \n'
+      '${dados[0]} anos de idade';
 
   print(out);
 }
