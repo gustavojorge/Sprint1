@@ -1,3 +1,3 @@
-A sample command-line application providing basic argument parsing with an entrypoint in `bin/`.
+# Atividade referente a Sprint1 - Módulo "Conhecendo as Variáveis". 
 
-# Sprint1
+
