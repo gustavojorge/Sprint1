@@ -1,2 +1,2 @@
-# Atividade referente a Sprint1 - Módulo "Selencionando listas". 
+# Atividade referente a Sprint1 - Módulo "Utilizando laços de repetição".
 
